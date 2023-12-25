@@ -1,0 +1,186 @@
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light:regular);
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Bad Script", cursive;
+}
+body{
+    background-color: #fffcf5;
+}
+header {
+    font-family: "Shadows Into Light";
+    background: #fffcf5;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 5px;
+    }
+    nav a {
+        padding: 5px;
+    }
+    main {
+        padding: 10px;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    header {
+        padding: 5px;
+    }
+    nav a {
+        padding: 5px;
+    }
+    main {
+        padding: 10px;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    header {
+        padding: 10px;
+    }
+    nav a {
+        padding: 10px;
+    }
+    main {
+        padding: 20px;
+    }
+}
+
+.hometheme {
+ max-width: 100%;
+height: auto;
+ }
+ .whtpplsay {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 3em; 
+    font-weight: bold; 
+    text-align: center;
+   color: #e8c480;
+   font-family: 'Dancing Script', cursive;
+  }
+  .slide {
+    margin-bottom: 20px;
+}
+.slideshow-container {
+    max-width: 70%;
+    margin: auto;
+    min-height: 200px; 
+}
+
+.mySlides {
+    display: none;
+}
+.mySlides img {
+    width: 100%;
+    height: auto;
+}
+.yeye{
+    font-size: 2em; 
+    font-weight: bold; 
+    text-align: center;
+   color: #e8c480;
+   font-family: 'Dancing Script', cursive;
+   display: flex;
+   justify-content: space-between;
+  }
+  .yeye img{
+    max-width: 70% ;
+    height:auto;
+    width: 27%;
+  }
+  .abtus p{
+    font-size:24px;
+    color:#333;
+    font-family:"Roboto";
+    }
+    .ourniggas{
+     text-align: center;
+    }
+    .Owner {
+        font-family: 'Times New Roman', Times, serif; 
+        font-size: 3em; 
+        font-weight: bold; 
+       color: #d7d1f1;
+       font-family: 'Dancing Script', cursive;
+       margin-left: 20rem;
+    }
+    .wewe{
+        display: flex;
+        justify-content: space-between;
+    }
+    .aass{
+        font-family: 'Times New Roman', Times, serif; 
+        font-size: 3em; 
+        font-weight: bold; 
+       color: #d7d1f1;
+       font-family: 'Dancing Script', cursive;
+    }
+    .wewe {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    @media (max-width: 768px) {
+        .wewe {
+            flex-direction: column; /* Stack items vertically on smaller screens */
+            align-items: center; /* Center items horizontally on smaller screens */
+        }
+    }
+    .wewewe {
+        display: flex;
+        justify-content: space-between;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .contact-info {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+    
+    .contact-info a {
+        color: #fff; /* Style links to be white */
+    }
+    
+    .copyright {
+        font-size: 0.9em;
+    }
+    
+
+    

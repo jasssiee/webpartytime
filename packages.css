@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Bad Script", cursive;
+}
+body{
+    background-color: #fffcf5;
+}
+header {
+    font-family: "Shadows Into Light";
+    background: #fffcf5;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.abtupic{
+    margin-left: 30rem;
+  }
+  .aboutuus{
+    margin-left:95rem;
+    margin-top: -60rem;
+  }
+  .gold{
+    color:#e8b923;
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bold; 
+    text-align: center;
+  }
+  .custom{
+    color:#e8c480;
+    font-family:'Times New Roman', Times, serif; 
+    font-weight:bold; 
+    text-align: center;
+  }
+  .Silver{
+    color: #868686;
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bold; 
+    text-align: center;
+  }
+  .bronze{
+    color: #905923;
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bold; 
+    text-align: center;
+  }
+  .go{
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bold; 
+    text-align: center;
+  }
+  .si{
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bold; 
+    text-align: center;
+  }
+  .bo{
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bold; 
+    text-align: center;
+  }
+  .Cus{
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bold; 
+    text-align: center;
+  }
+  .look{
+    color:yellow;
+    text-align: center;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
